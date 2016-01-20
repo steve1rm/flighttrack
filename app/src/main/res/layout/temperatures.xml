@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:colomnCount="5"
+    app:rowCount="4">
+
+    <!--First Row -->
+    <ImageView
+        android:src="@drawable/chanceofsnow_24dp"
+        android:scaleType="centerInside"/>
+
+    <ImageView
+        android:src="@drawable/lightrain_24dp"
+        android:scaleType="centerInside"/>
+
+    <ImageView
+        android:src="@drawable/mostlycloudy_24dp"
+        android:scaleType="centerInside"/>
+
+    <ImageView
+        android:src="@drawable/snowshowers_24dp"
+        android:scaleType="centerInside"/>
+
+    <ImageView
+        android:src="@drawable/sunny_24dp"
+        android:scaleType="centerInside"/>
+
+    <!-- Second row -->
+    <TextView
+        android:text="SAT"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:text="SUN"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:text="MON"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:text="TUE"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:text="WED"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <!-- Third Row -->
+    <TextView
+        android:text="73"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:text="71"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:text="69"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:text="69"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:text="64"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <!--Forth Row -->
+    <TextView
+        android:text="55"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:text="53"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:text="51"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:text="50"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:text="51"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"/>
+
+</android.support.v7.widget.GridLayout>
