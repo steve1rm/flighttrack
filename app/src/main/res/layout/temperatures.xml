@@ -9,14 +9,13 @@
 
     <!--First Row -->
     <ImageView
+        app:layout_gravity="center"
         android:src="@drawable/chanceofsnow_24dp"
-        android:scaleType="centerInside"
-        app:layout_columnWeight="1"/>
+        android:scaleType="centerInside" />
 
     <ImageView
         android:src="@drawable/lightrain_24dp"
-        android:scaleType="centerInside"
-        app:layout_columnWeight="1"/>
+        android:scaleType="centerInside" />
 
     <ImageView
         android:src="@drawable/mostlycloudy_24dp"
@@ -42,7 +41,6 @@
         android:fontFamily="sans-serif-medium"/>
 
     <TextView
-        app:layout_columnWeight="1"
         android:text="MON"
         android:textSize="14sp"
         android:fontFamily="sans-serif-medium"/>
