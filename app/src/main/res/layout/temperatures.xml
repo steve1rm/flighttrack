@@ -4,105 +4,191 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:columnCount="5"
-    app:rowCount="4">
+    app:columnCount="9"
+    app:rowCount="7">
 
     <!--First Row -->
     <ImageView
+        app:layout_columnWeight="1"
         app:layout_gravity="center"
+        app:layout_rowWeight="1"
         android:src="@drawable/chanceofsnow_24dp"
         android:scaleType="centerInside" />
 
+    <Space
+        android:layout_width="10dp"/>
+
     <ImageView
+        app:layout_columnWeight="1"
+        app:layout_gravity="center"
         android:src="@drawable/lightrain_24dp"
         android:scaleType="centerInside" />
 
+    <Space
+        android:layout_width="10dp"/>
+
     <ImageView
+        app:layout_columnWeight="1"
+        app:layout_gravity="center"
         android:src="@drawable/mostlycloudy_24dp"
         android:scaleType="centerInside"/>
 
+    <Space
+        android:layout_width="10dp"/>
+
     <ImageView
+        app:layout_columnWeight="1"
+        app:layout_gravity="center"
         android:src="@drawable/snowshowers_24dp"
         android:scaleType="centerInside"/>
 
+    <Space
+        android:layout_width="10dp"/>
+
     <ImageView
+        app:layout_columnWeight="1"
+        app:layout_gravity="center"
         android:src="@drawable/sunny_24dp"
         android:scaleType="centerInside"/>
 
     <!-- Second row -->
+    <Space
+        android:layout_height="8dp"
+        app:layout_columnSpan="9"/>
+
+
     <TextView
+        app:layout_gravity="center"
         android:text="SAT"
         android:textSize="14sp"
         android:fontFamily="sans-serif-medium"/>
 
+    <Space
+        android:layout_width="10dp"/>
+
     <TextView
+        app:layout_gravity="center"
         android:text="SUN"
         android:textSize="14sp"
         android:fontFamily="sans-serif-medium"/>
 
+    <Space
+        android:layout_width="10dp"/>
+
     <TextView
+        app:layout_gravity="center"
         android:text="MON"
         android:textSize="14sp"
         android:fontFamily="sans-serif-medium"/>
 
+    <Space
+        android:layout_width="10dp"/>
+
     <TextView
+        app:layout_gravity="center"
         android:text="TUE"
         android:textSize="14sp"
         android:fontFamily="sans-serif-medium"/>
 
+    <Space
+        android:layout_width="10dp"/>
+
     <TextView
+        app:layout_gravity="center"
         android:text="WED"
         android:textSize="14sp"
         android:fontFamily="sans-serif-medium"/>
 
     <!-- Third Row -->
+    <Space
+        android:layout_height="8dp"
+        app:layout_columnSpan="9"/>
+
     <TextView
+        app:layout_gravity="center"
         android:text="73\u00B0"
         android:textSize="14sp"
         android:fontFamily="sans-serif-medium"/>
 
+    <Space
+        android:layout_width="10dp"/>
+
     <TextView
+        app:layout_gravity="center"
         android:text="71\u00B0"
         android:textSize="14sp"
         android:fontFamily="sans-serif-medium"/>
 
+    <Space
+        android:layout_width="10dp"/>
+
     <TextView
+        app:layout_gravity="center"
         android:text="69\u00B0"
         android:textSize="14sp"
         android:fontFamily="sans-serif-medium"/>
 
+    <Space
+        android:layout_width="10dp"/>
+
     <TextView
+        app:layout_gravity="center"
         android:text="69\u00B0"
         android:textSize="14sp"
         android:fontFamily="sans-serif-medium"/>
 
+    <Space
+        android:layout_width="10dp"/>
+
     <TextView
+        app:layout_gravity="center"
         android:text="64\u00B0"
         android:textSize="14sp"
         android:fontFamily="sans-serif-medium"/>
 
     <!--Forth Row -->
+    <Space
+        android:layout_height="8dp"
+        app:layout_columnSpan="9"/>
+
     <TextView
+        app:layout_gravity="center"
         android:text="55\u00B0"
         android:textSize="14sp"
         android:fontFamily="sans-serif-medium"/>
 
+    <Space
+        android:layout_width="10dp"/>
+
     <TextView
+        app:layout_gravity="center"
         android:text="53\u00B0"
         android:textSize="14sp"
         android:fontFamily="sans-serif-medium"/>
 
+    <Space
+        android:layout_width="10dp"/>
+
     <TextView
+        app:layout_gravity="center"
         android:text="51\u00B0"
         android:textSize="14sp"
         android:fontFamily="sans-serif-medium"/>
 
+    <Space
+        android:layout_width="10dp"/>
+
     <TextView
+        app:layout_gravity="center"
         android:text="50\u00B0"
         android:textSize="14sp"
         android:fontFamily="sans-serif-medium"/>
 
+    <Space
+        android:layout_width="10dp"/>
+
     <TextView
+        app:layout_gravity="center"
         android:text="51\u00B0"
         android:textSize="14sp"
         android:fontFamily="sans-serif-medium"/>
