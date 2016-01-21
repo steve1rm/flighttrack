@@ -8,4 +8,7 @@
     <color name="mainBackground">#263238</color>
     <!-- Grey 900 -->
     <color name="backgroundDark">#212121</color>
+
+    <!-- Grey 900 transparency -->
+    <color name="backgroundDarkPicture">#99212121</color>
 </resources>

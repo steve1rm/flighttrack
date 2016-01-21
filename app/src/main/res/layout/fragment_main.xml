@@ -1,12 +1,23 @@
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="me.androidbox.flighttrack.MainFragment"
     android:background="@color/mainBackground">
 
     <include
-        layout="@layout/temperatures"/>
+        layout="@layout/details"/>
 
-</RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/backgroundDark"/>
+
+    <include
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="4dp"
+        layout="@layout/airport_status"/>
+</LinearLayout>

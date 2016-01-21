@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:paddingTop="34dp"
+    android:paddingBottom="8dp"
+    android:background="@drawable/background_layerlist">
+
+    <Space
+        android:id="@+id/centerHolder"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/centerHolder"
+        android:layout_toStartOf="@id/centerHolder"
+        android:src="@drawable/partlysunny_48dp"
+        android:scaleType="centerInside"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/centerHolder"
+        android:layout_toEndOf="@id/centerHolder"
+        android:text="66\u00B0"
+        android:textSize="54sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"/>
+
+    <include
+        layout="@layout/temperatures"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"/>
+
+   <!-- <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/towerbridge_320dp"
+        android:scaleType="centerCrop"/>-->
+
+</RelativeLayout>

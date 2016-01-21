@@ -60,7 +60,8 @@
     <TextView
         app:layout_gravity="center"
         android:text="SAT"
-        android:textSize="14sp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
         android:fontFamily="sans-serif-medium"/>
 
     <Space
@@ -69,7 +70,8 @@
     <TextView
         app:layout_gravity="center"
         android:text="SUN"
-        android:textSize="14sp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
         android:fontFamily="sans-serif-medium"/>
 
     <Space
@@ -78,7 +80,8 @@
     <TextView
         app:layout_gravity="center"
         android:text="MON"
-        android:textSize="14sp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
         android:fontFamily="sans-serif-medium"/>
 
     <Space
@@ -87,7 +90,8 @@
     <TextView
         app:layout_gravity="center"
         android:text="TUE"
-        android:textSize="14sp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
         android:fontFamily="sans-serif-medium"/>
 
     <Space
@@ -96,7 +100,8 @@
     <TextView
         app:layout_gravity="center"
         android:text="WED"
-        android:textSize="14sp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
         android:fontFamily="sans-serif-medium"/>
 
     <!-- Third Row -->
@@ -107,7 +112,8 @@
     <TextView
         app:layout_gravity="center"
         android:text="73\u00B0"
-        android:textSize="14sp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
         android:fontFamily="sans-serif-medium"/>
 
     <Space
@@ -116,7 +122,8 @@
     <TextView
         app:layout_gravity="center"
         android:text="71\u00B0"
-        android:textSize="14sp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
         android:fontFamily="sans-serif-medium"/>
 
     <Space
@@ -125,7 +132,8 @@
     <TextView
         app:layout_gravity="center"
         android:text="69\u00B0"
-        android:textSize="14sp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
         android:fontFamily="sans-serif-medium"/>
 
     <Space
@@ -134,7 +142,8 @@
     <TextView
         app:layout_gravity="center"
         android:text="69\u00B0"
-        android:textSize="14sp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
         android:fontFamily="sans-serif-medium"/>
 
     <Space
@@ -143,7 +152,8 @@
     <TextView
         app:layout_gravity="center"
         android:text="64\u00B0"
-        android:textSize="14sp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
         android:fontFamily="sans-serif-medium"/>
 
     <!--Forth Row -->
@@ -154,7 +164,7 @@
     <TextView
         app:layout_gravity="center"
         android:text="55\u00B0"
-        android:textSize="14sp"
+        android:textSize="20sp"
         android:fontFamily="sans-serif-medium"/>
 
     <Space
@@ -163,7 +173,7 @@
     <TextView
         app:layout_gravity="center"
         android:text="53\u00B0"
-        android:textSize="14sp"
+        android:textSize="20sp"
         android:fontFamily="sans-serif-medium"/>
 
     <Space
@@ -172,7 +182,7 @@
     <TextView
         app:layout_gravity="center"
         android:text="51\u00B0"
-        android:textSize="14sp"
+        android:textSize="20sp"
         android:fontFamily="sans-serif-medium"/>
 
     <Space
@@ -181,7 +191,7 @@
     <TextView
         app:layout_gravity="center"
         android:text="50\u00B0"
-        android:textSize="14sp"
+        android:textSize="20sp"
         android:fontFamily="sans-serif-medium"/>
 
     <Space
@@ -190,7 +200,7 @@
     <TextView
         app:layout_gravity="center"
         android:text="51\u00B0"
-        android:textSize="14sp"
+        android:textSize="20sp"
         android:fontFamily="sans-serif-medium"/>
 
 </android.support.v7.widget.GridLayout>
