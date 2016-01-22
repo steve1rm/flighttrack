@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flight_layout_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:gravity="center"
+        android:text="London (LHR)"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/flightBorder"/>
+
+    <include
+        layout="@layout/details"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/flightBorder"/>
+
+    <include
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="4dp"
+        layout="@layout/airport_status"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/flightBorder"/>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        layout="@layout/buttons"/>
+
+</LinearLayout>

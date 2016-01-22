@@ -5,19 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="me.androidbox.flighttrack.MainFragment"
-    android:background="@color/mainBackground">
+    android:background="@color/mainBackground"
+    android:paddingTop="40dp"
+    android:paddingBottom="40dp"
+    android:paddingStart="20dp"
+    android:paddingLeft="20dp"
+    android:paddingEnd="20dp"
+    android:paddingRight="20dp">
 
     <include
-        layout="@layout/details"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@color/backgroundDark"/>
-
-    <include
-        android:layout_height="50dp"
-        android:layout_width="match_parent"
-        android:layout_marginTop="4dp"
-        layout="@layout/airport_status"/>
+        layout="@layout/flight_layout"/>
 </LinearLayout>
